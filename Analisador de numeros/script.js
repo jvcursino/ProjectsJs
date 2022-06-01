@@ -12,6 +12,8 @@ numerosSalvos.push(n)
 let item = document.createElement('option')
 item.text = `O numero ${n} foi adicionado com sucesso!`
 entradas.appendChild(item)
+num.value = ''
+num.focus()
 } 
 
 function checar(){ //Checa se o numero incerido e valido e unico
